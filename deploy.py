@@ -42,4 +42,4 @@ def nextFn():
         return render_template('response.html', result=result)
 
 if __name__=='__main__':
-    app.run(port=50002, debug=True)
+    app.run()
